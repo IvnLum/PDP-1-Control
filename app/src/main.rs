@@ -91,9 +91,8 @@ fn main() {
 
     let st_th = thread::spawn(move || {
         let mut rng = rand::rng();
-        let mut end_delayed = false;
         loop {
-            if end_delayed {
+            if s_efl0.load(Ordering::SeqCst) {
                 break;
             }
             if app_ui::ui::PARENT.get().is_none() {
@@ -107,7 +106,6 @@ fn main() {
                 .iter()
             {
                 if s_efl0.load(Ordering::SeqCst) {
-                    end_delayed = true;
                     break;
                 }
                 blk.get()
