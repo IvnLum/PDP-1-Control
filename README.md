@@ -5,4 +5,4 @@
   <img height=400 src="https://raw.githubusercontent.com/IvnLum/PDP-1-Control/main/anim/pdp1.gif" />
 </p>
 
-> Random blinkenlights testing, serial communication not implemented yet
+> Random blinkenlights testing, serial communication in progress
