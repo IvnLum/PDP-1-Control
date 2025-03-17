@@ -1,0 +1,813 @@
+# data file for the Fltk User Interface Designer (fluid)
+version 1.0309
+header_name {.h}
+code_name {.cxx}
+class UserInterface {open
+} {
+  Function {make_window()} {open
+  } {
+    Fl_Window {} {
+      label {PDP-1 Control} open
+      xywh {348 452 924 543} type Double color 39 labelfont 4 labelcolor 7 align 80 when 1 visible
+    } {
+      Fl_Menu_Bar {} {open
+        xywh {0 0 890 37} box FLAT_BOX down_box FLAT_BOX color 189 selection_color 7 labelfont 1 textfont 1 textcolor 7
+      } {
+        MenuItem {} {
+          label {PDP-1 Control}
+          xywh {0 0 36 21} labelfont 1 labelsize 12 labelcolor 7
+        }
+      }
+      Fl_Menu_Bar {} {open
+        xywh {890 0 32 37} box FLAT_BOX down_box FLAT_BOX color 189 selection_color 7 labelfont 1 textfont 1 textcolor 7
+      } {
+        Submenu {} {
+          label {?} open
+          xywh {20 20 70 52} labelfont 14 labelsize 22 labelcolor 7
+        } {
+          Submenu {} {
+            label {About...} open
+            xywh {20 20 70 21}
+          } {
+            MenuItem {} {
+              label {PDP-1 Control ©  2025}
+              xywh {20 20 36 21}
+            }
+            MenuItem {} {
+              label {Written in Rust + FLTK GUI}
+              xywh {30 30 36 21}
+            }
+          }
+        }
+      }
+      Fl_Box {} {
+        xywh {586 72 25 382} box RFLAT_BOX color 45
+      }
+      Fl_Box {} {
+        xywh {733 204 172 25} box RFLAT_BOX color 45
+      }
+      Fl_Box {} {
+        xywh {733 329 172 25} box RFLAT_BOX color 45
+      }
+      Fl_Box {} {
+        xywh {732 72 25 84} box RFLAT_BOX color 45
+      }
+      Fl_Box {} {
+        xywh {732 409 85 25} box RFLAT_BOX color 45
+      }
+      Fl_Box {} {
+        xywh {822 409 55 25} box RFLAT_BOX color 45
+      }
+      Fl_Box {} {
+        xywh {108 372 85 27} box RFLAT_BOX color 44
+      }
+      Fl_Box {} {
+        xywh {78 372 26 27} box RFLAT_BOX color 44
+      }
+      Fl_Box {} {
+        xywh {198 372 85 27} box RFLAT_BOX color 44
+      }
+      Fl_Box {} {
+        xywh {288 372 85 27} box RFLAT_BOX color 44
+      }
+      Fl_Box {} {
+        xywh {378 372 85 27} box RFLAT_BOX color 44
+      }
+      Fl_Box {} {
+        xywh {468 372 85 27} box RFLAT_BOX color 44
+      }
+      Fl_Box {} {
+        xywh {468 432 85 27} box RFLAT_BOX color 44
+      }
+      Fl_Box {} {
+        xywh {378 432 85 27} box RFLAT_BOX color 44
+      }
+      Fl_Box {} {
+        xywh {288 432 85 27} box RFLAT_BOX color 44
+      }
+      Fl_Box {} {
+        xywh {198 432 85 27} box RFLAT_BOX color 44
+      }
+      Fl_Box {} {
+        xywh {108 432 85 27} box RFLAT_BOX color 44
+      }
+      Fl_Box {} {
+        xywh {19 432 85 27} box RFLAT_BOX color 44 selection_color 48
+      }
+      Fl_Box {} {
+        xywh {468 74 85 25} box RFLAT_BOX color 45
+      }
+      Fl_Box {} {
+        xywh {468 134 85 25} box RFLAT_BOX color 45
+      }
+      Fl_Box {} {
+        xywh {468 194 85 25} box RFLAT_BOX color 45
+      }
+      Fl_Box {} {
+        xywh {468 254 85 25} box RFLAT_BOX color 45
+      }
+      Fl_Box {} {
+        xywh {468 314 85 25} box RFLAT_BOX color 45
+      }
+      Fl_Box {} {
+        xywh {378 314 85 25} box RFLAT_BOX color 45
+      }
+      Fl_Box {} {
+        xywh {378 254 85 25} box RFLAT_BOX color 45
+      }
+      Fl_Box {} {
+        xywh {378 194 85 25} box RFLAT_BOX color 45
+      }
+      Fl_Box {} {
+        xywh {378 134 85 25} box RFLAT_BOX color 45
+      }
+      Fl_Box {} {
+        xywh {378 74 85 25} box RFLAT_BOX color 45
+      }
+      Fl_Box {} {
+        xywh {288 74 85 25} box RFLAT_BOX color 45
+      }
+      Fl_Box {} {
+        xywh {288 134 85 25} box RFLAT_BOX color 45
+      }
+      Fl_Box {} {
+        xywh {288 194 85 25} box RFLAT_BOX color 45
+      }
+      Fl_Box {} {
+        xywh {288 254 85 25} box RFLAT_BOX color 45
+      }
+      Fl_Box {} {
+        xywh {288 314 85 25} box RFLAT_BOX color 45
+      }
+      Fl_Box {} {
+        xywh {198 74 85 25} box RFLAT_BOX color 45
+      }
+      Fl_Box {} {
+        xywh {198 134 85 25} box RFLAT_BOX color 45
+      }
+      Fl_Box {} {
+        xywh {198 194 85 25} box RFLAT_BOX color 45
+      }
+      Fl_Box {} {
+        xywh {198 254 85 25} box RFLAT_BOX color 45
+      }
+      Fl_Box {} {
+        xywh {198 314 85 25} box RFLAT_BOX color 45
+      }
+      Fl_Box {} {
+        xywh {108 74 85 25} box RFLAT_BOX color 45
+      }
+      Fl_Box {} {
+        xywh {108 134 85 25} box RFLAT_BOX color 45
+      }
+      Fl_Box {} {
+        xywh {108 194 85 25} box RFLAT_BOX color 45
+      }
+      Fl_Box {} {
+        xywh {108 254 85 25} box RFLAT_BOX color 45
+      }
+      Fl_Box {} {
+        xywh {108 314 85 25} box RFLAT_BOX color 45
+      }
+      Fl_Box {} {
+        xywh {20 194 82 25} box RFLAT_BOX color 45
+      }
+      Fl_Box {} {
+        xywh {20 254 82 25} box RFLAT_BOX color 45
+      }
+      Fl_Box {} {
+        xywh {20 314 82 25} box RFLAT_BOX color 45
+      }
+      Fl_Box {} {
+        xywh {78 74 29 25} box RFLAT_BOX color 45
+      }
+      Fl_Box {} {
+        xywh {78 134 30 25} box RFLAT_BOX color 45
+      }
+      Fl_Box {} {
+        xywh {571 69 2 391} box FLAT_BOX color 7
+      }
+      Fl_Box {} {
+        xywh {712 69 2 391} box FLAT_BOX color 7
+      }
+      Fl_Input {} {
+        label __EXTENSION__
+        xywh {187 49 0 25} box NO_BOX labelcolor 7
+      }
+      Fl_Input {} {
+        label {________________MEMORY ADDRESS_______________}
+        xywh {554 109 0 25} box NO_BOX labelcolor 7
+      }
+      Fl_Input {} {
+        label {________________MEMORY ADDRESS_______________}
+        xywh {548 49 0 25} box NO_BOX labelcolor 7
+      }
+      Fl_Input {} {
+        label __EXTENSION__
+        xywh {193 110 0 25} box NO_BOX labelcolor 7
+      }
+      Fl_Input {} {
+        label {_______________________________MEMORY BUFFER____________________________}
+        xywh {556 168 0 25} box NO_BOX labelcolor 7
+      }
+      Fl_Input {} {
+        label ________________________________ACCUMULATOR_____________________________
+        xywh {558 228 0 25} box NO_BOX labelcolor 7
+      }
+      Fl_Input {} {
+        label {___________________________________IN - OUT_________________________________}
+        xywh {554 289 0 25} box NO_BOX labelcolor 7
+      }
+      Fl_Input {} {
+        label EXTEND
+        xywh {77 347 0 25} box NO_BOX labelcolor 7
+      }
+      Fl_Input {} {
+        label _EXTENSION___
+        xywh {194 348 0 25} box NO_BOX labelcolor 7
+      }
+      Fl_Input {} {
+        label ____________________ADDRESS____________________
+        xywh {553 347 0 25} box NO_BOX labelcolor 7
+      }
+      Fl_Input {} {
+        label {_________________________________TEST WORD_______________________________}
+        xywh {556 408 0 25} box NO_BOX labelcolor 7
+      }
+      Fl_Input {} {
+        label _______________________
+        xywh {903 159 0 25} box NO_BOX
+      }
+      Fl_Input {} {
+        label {SENSE SWITCHES}
+        xywh {883 179 0 25} box NO_BOX labelcolor 7
+      }
+      Fl_Input {} {
+        label _______________________
+        xywh {904 284 0 25} box NO_BOX
+      }
+      Fl_Input {} {
+        label {PROGRAM FLAGS}
+        xywh {882 304 0 25} box NO_BOX labelcolor 7
+      }
+      Fl_Input {} {
+        label ____INSTRUCTION___
+        xywh {879 381 0 25} box NO_BOX labelcolor 7
+      }
+      Fl_Progress {} {
+        xywh {78 74 25 25} box OVAL_BOX color 43 selection_color 94 when 1
+      }
+      Fl_Progress {} {
+        xywh {108 74 25 25} box OVAL_BOX color 43 selection_color 94
+      }
+      Fl_Progress {} {
+        xywh {138 74 25 25} box OVAL_BOX color 43 selection_color 94
+      }
+      Fl_Progress {} {selected
+        xywh {168 74 25 25} box OVAL_BOX color 43 selection_color 94
+      }
+      Fl_Progress {} {
+        xywh {198 74 25 25} box OVAL_BOX color 43 selection_color 94
+      }
+      Fl_Progress {} {
+        xywh {228 74 25 25} box OVAL_BOX color 43 selection_color 94
+      }
+      Fl_Progress {} {
+        xywh {258 74 25 25} box OVAL_BOX color 43 selection_color 94
+      }
+      Fl_Progress {} {
+        xywh {288 74 25 25} box OVAL_BOX color 43 selection_color 94
+      }
+      Fl_Progress {} {
+        xywh {318 74 25 25} box OVAL_BOX color 43 selection_color 94
+      }
+      Fl_Progress {} {
+        xywh {348 74 25 25} box OVAL_BOX color 43 selection_color 94
+      }
+      Fl_Progress {} {
+        xywh {378 74 25 25} box OVAL_BOX color 43 selection_color 94
+      }
+      Fl_Progress {} {
+        xywh {408 74 25 25} box OVAL_BOX color 43 selection_color 94
+      }
+      Fl_Progress {} {
+        xywh {438 74 25 25} box OVAL_BOX color 43 selection_color 94
+      }
+      Fl_Progress {} {
+        xywh {468 74 25 25} box OVAL_BOX color 43 selection_color 94
+      }
+      Fl_Progress {} {
+        xywh {498 74 25 25} box OVAL_BOX color 43 selection_color 94
+      }
+      Fl_Progress {} {
+        xywh {528 74 25 25} box OVAL_BOX color 43 selection_color 94
+      }
+      Fl_Progress {} {
+        xywh {78 134 25 25} box OVAL_BOX color 43 selection_color 94
+      }
+      Fl_Progress {} {
+        xywh {108 134 25 25} box OVAL_BOX color 43 selection_color 94
+      }
+      Fl_Progress {} {
+        xywh {138 134 25 25} box OVAL_BOX color 43 selection_color 94
+      }
+      Fl_Progress {} {
+        xywh {168 134 25 25} box OVAL_BOX color 43 selection_color 94
+      }
+      Fl_Progress {} {
+        xywh {198 134 25 25} box OVAL_BOX color 43 selection_color 94
+      }
+      Fl_Progress {} {
+        xywh {228 134 25 25} box OVAL_BOX color 43 selection_color 94
+      }
+      Fl_Progress {} {
+        xywh {258 134 25 25} box OVAL_BOX color 43 selection_color 94
+      }
+      Fl_Progress {} {
+        xywh {288 134 25 25} box OVAL_BOX color 43 selection_color 94
+      }
+      Fl_Progress {} {
+        xywh {318 134 25 25} box OVAL_BOX color 43 selection_color 94
+      }
+      Fl_Progress {} {
+        xywh {348 134 25 25} box OVAL_BOX color 43 selection_color 94
+      }
+      Fl_Progress {} {
+        xywh {378 134 25 25} box OVAL_BOX color 43 selection_color 94
+      }
+      Fl_Progress {} {
+        xywh {408 134 25 25} box OVAL_BOX color 43 selection_color 94
+      }
+      Fl_Progress {} {
+        xywh {438 134 25 25} box OVAL_BOX color 43 selection_color 94
+      }
+      Fl_Progress {} {
+        xywh {468 134 25 25} box OVAL_BOX color 43 selection_color 94
+      }
+      Fl_Progress {} {
+        xywh {498 134 25 25} box OVAL_BOX color 43 selection_color 94
+      }
+      Fl_Progress {} {
+        xywh {528 134 25 25} box OVAL_BOX color 43 selection_color 94
+      }
+      Fl_Progress {} {
+        xywh {20 194 25 25} box OVAL_BOX color 43 selection_color 94
+      }
+      Fl_Progress {} {
+        xywh {48 194 25 25} box OVAL_BOX color 43 selection_color 94
+      }
+      Fl_Progress {} {
+        xywh {78 194 25 25} box OVAL_BOX color 43 selection_color 94
+      }
+      Fl_Progress {} {
+        xywh {108 194 25 25} box OVAL_BOX color 43 selection_color 94
+      }
+      Fl_Progress {} {
+        xywh {138 194 25 25} box OVAL_BOX color 43 selection_color 94
+      }
+      Fl_Progress {} {
+        xywh {168 194 25 25} box OVAL_BOX color 43 selection_color 94
+      }
+      Fl_Progress {} {
+        xywh {198 194 25 25} box OVAL_BOX color 43 selection_color 94
+      }
+      Fl_Progress {} {
+        xywh {228 194 25 25} box OVAL_BOX color 43 selection_color 94
+      }
+      Fl_Progress {} {
+        xywh {258 194 25 25} box OVAL_BOX color 43 selection_color 94
+      }
+      Fl_Progress {} {
+        xywh {288 194 25 25} box OVAL_BOX color 43 selection_color 94
+      }
+      Fl_Progress {} {
+        xywh {318 194 25 25} box OVAL_BOX color 43 selection_color 94
+      }
+      Fl_Progress {} {
+        xywh {348 194 25 25} box OVAL_BOX color 43 selection_color 94
+      }
+      Fl_Progress {} {
+        xywh {378 194 25 25} box OVAL_BOX color 43 selection_color 94
+      }
+      Fl_Progress {} {
+        xywh {408 194 25 25} box OVAL_BOX color 43 selection_color 94
+      }
+      Fl_Progress {} {
+        xywh {438 194 25 25} box OVAL_BOX color 43 selection_color 94
+      }
+      Fl_Progress {} {
+        xywh {468 194 25 25} box OVAL_BOX color 43 selection_color 94
+      }
+      Fl_Progress {} {
+        xywh {498 194 25 25} box OVAL_BOX color 43 selection_color 94
+      }
+      Fl_Progress {} {
+        xywh {528 194 25 25} box OVAL_BOX color 43 selection_color 94
+      }
+      Fl_Progress {} {
+        xywh {20 254 25 25} box OVAL_BOX color 43 selection_color 94
+      }
+      Fl_Progress {} {
+        xywh {48 254 25 25} box OVAL_BOX color 43 selection_color 94
+      }
+      Fl_Progress {} {
+        xywh {78 254 25 25} box OVAL_BOX color 43 selection_color 94
+      }
+      Fl_Progress {} {
+        xywh {108 254 25 25} box OVAL_BOX color 43 selection_color 94
+      }
+      Fl_Progress {} {
+        xywh {138 254 25 25} box OVAL_BOX color 43 selection_color 94
+      }
+      Fl_Progress {} {
+        xywh {168 254 25 25} box OVAL_BOX color 43 selection_color 94
+      }
+      Fl_Progress {} {
+        xywh {198 254 25 25} box OVAL_BOX color 43 selection_color 94
+      }
+      Fl_Progress {} {
+        xywh {228 254 25 25} box OVAL_BOX color 43 selection_color 94
+      }
+      Fl_Progress {} {
+        xywh {258 254 25 25} box OVAL_BOX color 43 selection_color 94
+      }
+      Fl_Progress {} {
+        xywh {288 254 25 25} box OVAL_BOX color 43 selection_color 94
+      }
+      Fl_Progress {} {
+        xywh {318 254 25 25} box OVAL_BOX color 43 selection_color 94
+      }
+      Fl_Progress {} {
+        xywh {348 254 25 25} box OVAL_BOX color 43 selection_color 94
+      }
+      Fl_Progress {} {
+        xywh {378 254 25 25} box OVAL_BOX color 43 selection_color 94
+      }
+      Fl_Progress {} {
+        xywh {408 254 25 25} box OVAL_BOX color 43 selection_color 94
+      }
+      Fl_Progress {} {
+        xywh {438 254 25 25} box OVAL_BOX color 43 selection_color 94
+      }
+      Fl_Progress {} {
+        xywh {468 254 25 25} box OVAL_BOX color 43 selection_color 94
+      }
+      Fl_Progress {} {
+        xywh {498 254 25 25} box OVAL_BOX color 43 selection_color 94
+      }
+      Fl_Progress {} {
+        xywh {528 254 25 25} box OVAL_BOX color 43 selection_color 94
+      }
+      Fl_Progress {} {
+        xywh {20 314 25 25} box OVAL_BOX color 43 selection_color 94
+      }
+      Fl_Progress {} {
+        xywh {48 314 25 25} box OVAL_BOX color 43 selection_color 94
+      }
+      Fl_Progress {} {
+        xywh {78 314 25 25} box OVAL_BOX color 43 selection_color 94
+      }
+      Fl_Progress {} {
+        xywh {108 314 25 25} box OVAL_BOX color 43 selection_color 94
+      }
+      Fl_Progress {} {
+        xywh {138 314 25 25} box OVAL_BOX color 43 selection_color 94
+      }
+      Fl_Progress {} {
+        xywh {168 314 25 25} box OVAL_BOX color 43 selection_color 94
+      }
+      Fl_Progress {} {
+        xywh {198 314 25 25} box OVAL_BOX color 43 selection_color 94
+      }
+      Fl_Progress {} {
+        xywh {228 314 25 25} box OVAL_BOX color 43 selection_color 94
+      }
+      Fl_Progress {} {
+        xywh {258 314 25 25} box OVAL_BOX color 43 selection_color 94
+      }
+      Fl_Progress {} {
+        xywh {288 314 25 25} box OVAL_BOX color 43 selection_color 94
+      }
+      Fl_Progress {} {
+        xywh {318 314 25 25} box OVAL_BOX color 43 selection_color 94
+      }
+      Fl_Progress {} {
+        xywh {348 314 25 25} box OVAL_BOX color 43 selection_color 94
+      }
+      Fl_Progress {} {
+        xywh {378 314 25 25} box OVAL_BOX color 43 selection_color 94
+      }
+      Fl_Progress {} {
+        xywh {408 314 25 25} box OVAL_BOX color 43 selection_color 94
+      }
+      Fl_Progress {} {
+        xywh {438 314 25 25} box OVAL_BOX color 43 selection_color 94
+      }
+      Fl_Progress {} {
+        xywh {468 314 25 25} box OVAL_BOX color 43 selection_color 94
+      }
+      Fl_Progress {} {
+        xywh {498 314 25 25} box OVAL_BOX color 43 selection_color 94
+      }
+      Fl_Progress {} {
+        xywh {528 314 25 25} box OVAL_BOX color 43 selection_color 94
+      }
+      Fl_Progress {} {
+        label RUN
+        xywh {586 72 25 25} box OVAL_BOX color 43 selection_color 94 labelcolor 7 align 8
+      }
+      Fl_Progress {} {
+        label CYCLE
+        xywh {586 102 25 25} box OVAL_BOX color 43 selection_color 94 labelcolor 7 align 8
+      }
+      Fl_Progress {} {
+        label DEFER
+        xywh {586 132 25 25} box OVAL_BOX color 43 selection_color 94 labelcolor 7 align 8
+      }
+      Fl_Progress {} {
+        label {H.S. CYCLE}
+        xywh {586 162 25 25} box OVAL_BOX color 43 selection_color 94 labelcolor 7 align 8
+      }
+      Fl_Progress {} {
+        label {BRK.CTR.1}
+        xywh {586 192 25 25} box OVAL_BOX color 43 selection_color 94 labelcolor 7 align 8
+      }
+      Fl_Progress {} {
+        label {BRK.CTR.2}
+        xywh {586 222 25 25} box OVAL_BOX color 43 selection_color 94 labelcolor 7 align 8
+      }
+      Fl_Progress {} {
+        label {OVER FLOW}
+        xywh {586 252 25 25} box OVAL_BOX color 43 selection_color 94 labelcolor 7 align 8
+      }
+      Fl_Progress {} {
+        label {READ IN}
+        xywh {586 282 25 25} box OVAL_BOX color 43 selection_color 94 labelcolor 7 align 8
+      }
+      Fl_Progress {} {
+        label {SEQ. BREAK}
+        xywh {586 312 25 25} box OVAL_BOX color 43 selection_color 94 labelcolor 7 align 8
+      }
+      Fl_Progress {} {
+        label EXTEND
+        xywh {586 342 25 25} box OVAL_BOX color 43 selection_color 94 labelcolor 7 align 8
+      }
+      Fl_Progress {} {
+        label {I - O HALT}
+        xywh {586 372 25 25} box OVAL_BOX color 43 selection_color 94 labelcolor 7 align 8
+      }
+      Fl_Progress {} {
+        label {I - O COM'DS}
+        xywh {586 401 25 25} box OVAL_BOX color 43 selection_color 94 labelcolor 7 align 8
+      }
+      Fl_Progress {} {
+        label {I - O SYNC}
+        xywh {586 430 25 25} box OVAL_BOX color 43 selection_color 94 labelcolor 7 align 8
+      }
+      Fl_Progress {} {
+        xywh {732 72 25 25} box OVAL_BOX color 43 selection_color 94
+      }
+      Fl_Progress {} {
+        xywh {732 102 25 25} box OVAL_BOX color 43 selection_color 94
+      }
+      Fl_Progress {} {
+        xywh {732 132 25 25} box OVAL_BOX color 43 selection_color 94
+      }
+      Fl_Progress {} {
+        xywh {732 204 25 25} box OVAL_BOX color 43 selection_color 94
+      }
+      Fl_Progress {} {
+        xywh {762 204 25 25} box OVAL_BOX color 43 selection_color 94
+      }
+      Fl_Progress {} {
+        xywh {792 204 25 25} box OVAL_BOX color 43 selection_color 94
+      }
+      Fl_Progress {} {
+        xywh {822 204 25 25} box OVAL_BOX color 43 selection_color 94
+      }
+      Fl_Progress {} {
+        xywh {852 204 25 25} box OVAL_BOX color 43 selection_color 94
+      }
+      Fl_Progress {} {
+        xywh {880 204 25 25} box OVAL_BOX color 43 selection_color 94
+      }
+      Fl_Progress {} {
+        label 1
+        xywh {732 329 25 25} box OVAL_BOX color 43 selection_color 94 labelcolor 7 align 2
+      }
+      Fl_Progress {} {
+        label 2
+        xywh {762 329 25 25} box OVAL_BOX color 43 selection_color 94 labelcolor 7 align 2
+      }
+      Fl_Progress {} {
+        label 3
+        xywh {792 329 25 25} box OVAL_BOX color 43 selection_color 94 labelcolor 7 align 2
+      }
+      Fl_Progress {} {
+        label 4
+        xywh {822 329 25 25} box OVAL_BOX color 43 selection_color 94 labelcolor 7 align 2
+      }
+      Fl_Progress {} {
+        label 5
+        xywh {852 329 25 25} box OVAL_BOX color 43 selection_color 94 labelcolor 7 align 2
+      }
+      Fl_Progress {} {
+        label 6
+        xywh {880 329 25 25} box OVAL_BOX color 43 selection_color 94 labelcolor 7 align 2
+      }
+      Fl_Progress {} {
+        xywh {732 409 25 25} box OVAL_BOX color 43 selection_color 94
+      }
+      Fl_Progress {} {
+        xywh {762 409 25 25} box OVAL_BOX color 43 selection_color 94
+      }
+      Fl_Progress {} {
+        xywh {792 409 25 25} box OVAL_BOX color 43 selection_color 94
+      }
+      Fl_Progress {} {
+        xywh {822 409 25 25} box OVAL_BOX color 43 selection_color 94
+      }
+      Fl_Progress {} {
+        xywh {852 409 25 25} box OVAL_BOX color 43 selection_color 94
+      }
+      Fl_Round_Button {} {
+        xywh {21 376 20 20} box OVAL_FRAME down_box ROUND_DOWN_BOX selection_color 2 align 16
+      }
+      Fl_Round_Button {} {
+        xywh {81 376 20 20} box OVAL_FRAME down_box ROUND_DOWN_BOX selection_color 2 align 16
+      }
+      Fl_Round_Button {} {
+        xywh {110 376 20 20} box OVAL_FRAME down_box ROUND_DOWN_BOX selection_color 2 align 16
+      }
+      Fl_Round_Button {} {
+        xywh {140 376 20 20} box OVAL_FRAME down_box ROUND_DOWN_BOX selection_color 2 align 16
+      }
+      Fl_Round_Button {} {
+        xywh {170 376 20 20} box OVAL_FRAME down_box ROUND_DOWN_BOX selection_color 2 align 16
+      }
+      Fl_Round_Button {} {
+        xywh {201 376 20 20} box OVAL_FRAME down_box ROUND_DOWN_BOX selection_color 2 align 16
+      }
+      Fl_Round_Button {} {
+        xywh {231 376 20 20} box OVAL_FRAME down_box ROUND_DOWN_BOX selection_color 2 align 16
+      }
+      Fl_Round_Button {} {
+        xywh {261 376 20 20} box OVAL_FRAME down_box ROUND_DOWN_BOX selection_color 2 align 16
+      }
+      Fl_Round_Button {} {
+        xywh {290 376 20 20} box OVAL_FRAME down_box ROUND_DOWN_BOX selection_color 2 align 16
+      }
+      Fl_Round_Button {} {
+        xywh {320 376 20 20} box OVAL_FRAME down_box ROUND_DOWN_BOX selection_color 2 align 16
+      }
+      Fl_Round_Button {} {
+        xywh {350 376 20 20} box OVAL_FRAME down_box ROUND_DOWN_BOX selection_color 2 align 16
+      }
+      Fl_Round_Button {} {
+        xywh {381 376 20 20} box OVAL_FRAME down_box ROUND_DOWN_BOX selection_color 2 align 16
+      }
+      Fl_Round_Button {} {
+        xywh {411 376 20 20} box OVAL_FRAME down_box ROUND_DOWN_BOX selection_color 2 align 16
+      }
+      Fl_Round_Button {} {
+        xywh {441 376 20 20} box OVAL_FRAME down_box ROUND_DOWN_BOX selection_color 2 align 16
+      }
+      Fl_Round_Button {} {
+        xywh {470 376 20 20} box OVAL_FRAME down_box ROUND_DOWN_BOX selection_color 2 align 16
+      }
+      Fl_Round_Button {} {
+        xywh {500 376 20 20} box OVAL_FRAME down_box ROUND_DOWN_BOX selection_color 2 align 16
+      }
+      Fl_Round_Button {} {
+        xywh {530 376 20 20} box OVAL_FRAME down_box ROUND_DOWN_BOX selection_color 2 align 16
+      }
+      Fl_Round_Button {} {
+        xywh {20 436 20 20} box OVAL_FRAME down_box ROUND_DOWN_BOX selection_color 2 align 16
+      }
+      Fl_Round_Button {} {
+        xywh {50 436 20 20} box OVAL_FRAME down_box ROUND_DOWN_BOX selection_color 2 align 16
+      }
+      Fl_Round_Button {} {
+        xywh {80 436 20 20} box OVAL_FRAME down_box ROUND_DOWN_BOX selection_color 2 align 16
+      }
+      Fl_Round_Button {} {
+        xywh {111 436 20 20} box OVAL_FRAME down_box ROUND_DOWN_BOX selection_color 2 align 16
+      }
+      Fl_Round_Button {} {
+        xywh {141 436 20 20} box OVAL_FRAME down_box ROUND_DOWN_BOX selection_color 2 align 16
+      }
+      Fl_Round_Button {} {
+        xywh {171 436 20 20} box OVAL_FRAME down_box ROUND_DOWN_BOX selection_color 2 align 16
+      }
+      Fl_Round_Button {} {
+        xywh {200 436 20 20} box OVAL_FRAME down_box ROUND_DOWN_BOX selection_color 2 align 16
+      }
+      Fl_Round_Button {} {
+        xywh {230 436 20 20} box OVAL_FRAME down_box ROUND_DOWN_BOX selection_color 2 align 16
+      }
+      Fl_Round_Button {} {
+        xywh {260 436 20 20} box OVAL_FRAME down_box ROUND_DOWN_BOX selection_color 2 align 16
+      }
+      Fl_Round_Button {} {
+        xywh {291 436 20 20} box OVAL_FRAME down_box ROUND_DOWN_BOX selection_color 2 align 16
+      }
+      Fl_Round_Button {} {
+        xywh {321 436 20 20} box OVAL_FRAME down_box ROUND_DOWN_BOX selection_color 2 align 16
+      }
+      Fl_Round_Button {} {
+        xywh {351 436 20 20} box OVAL_FRAME down_box ROUND_DOWN_BOX selection_color 2 align 16
+      }
+      Fl_Round_Button {} {
+        xywh {380 436 20 20} box OVAL_FRAME down_box ROUND_DOWN_BOX selection_color 2 align 16
+      }
+      Fl_Round_Button {} {
+        xywh {410 436 20 20} box OVAL_FRAME down_box ROUND_DOWN_BOX selection_color 2 align 16
+      }
+      Fl_Round_Button {} {
+        xywh {440 436 20 20} box OVAL_FRAME down_box ROUND_DOWN_BOX selection_color 2 align 16
+      }
+      Fl_Round_Button {} {
+        xywh {470 436 20 20} box OVAL_FRAME down_box ROUND_DOWN_BOX selection_color 2 align 16
+      }
+      Fl_Round_Button {} {
+        xywh {500 436 20 20} box OVAL_FRAME down_box ROUND_DOWN_BOX selection_color 2 align 16
+      }
+      Fl_Round_Button {} {
+        xywh {530 436 20 20} box OVAL_FRAME down_box ROUND_DOWN_BOX selection_color 2 align 16
+      }
+      Fl_Round_Button {} {
+        label POWER
+        xywh {779 74 20 20} box OVAL_FRAME down_box ROUND_DOWN_BOX selection_color 2 labelcolor 7 align 8
+      }
+      Fl_Round_Button {} {
+        label {SINGLE STEP}
+        xywh {779 104 20 20} box OVAL_FRAME down_box ROUND_DOWN_BOX selection_color 2 labelcolor 7 align 8
+      }
+      Fl_Round_Button {} {
+        label {SINGLE INST.}
+        xywh {779 135 20 20} box OVAL_FRAME down_box ROUND_DOWN_BOX selection_color 2 labelcolor 7 align 8
+      }
+      Fl_Round_Button {} {
+        label 1
+        xywh {733 254 20 20} box OVAL_FRAME down_box ROUND_DOWN_BOX selection_color 2 labelcolor 7 align 2
+      }
+      Fl_Round_Button {} {
+        label 2
+        xywh {763 254 20 20} box OVAL_FRAME down_box ROUND_DOWN_BOX selection_color 2 labelcolor 7 align 2
+      }
+      Fl_Round_Button {} {
+        label 3
+        xywh {793 254 20 20} box OVAL_FRAME down_box ROUND_DOWN_BOX selection_color 2 labelcolor 7 align 2
+      }
+      Fl_Round_Button {} {
+        label 4
+        xywh {823 254 20 20} box OVAL_FRAME down_box ROUND_DOWN_BOX selection_color 2 labelcolor 7 align 2
+      }
+      Fl_Round_Button {} {
+        label 5
+        xywh {853 254 20 20} box OVAL_FRAME down_box ROUND_DOWN_BOX selection_color 2 labelcolor 7 align 2
+      }
+      Fl_Round_Button {} {
+        label 6
+        xywh {883 254 20 20} box OVAL_FRAME down_box ROUND_DOWN_BOX selection_color 2 labelcolor 7 align 2
+      }
+      Fl_Round_Button {} {
+        label START
+        xywh {50 508 20 20} box OVAL_FRAME down_box ROUND_DOWN_BOX selection_color 2 labelcolor 7 align 1
+      }
+      Fl_Round_Button {} {
+        label STOP
+        xywh {141 508 20 20} box OVAL_FRAME down_box ROUND_DOWN_BOX selection_color 2 labelcolor 7 align 1
+      }
+      Fl_Round_Button {} {
+        label CONTINUE
+        xywh {230 508 20 20} box OVAL_FRAME down_box ROUND_DOWN_BOX selection_color 2 labelcolor 7 align 1
+      }
+      Fl_Round_Button {} {
+        label EXAMINE
+        xywh {321 508 20 20} box OVAL_FRAME down_box ROUND_DOWN_BOX selection_color 2 labelcolor 7 align 1
+      }
+      Fl_Round_Button {} {
+        label DEPOSIT
+        xywh {410 508 20 20} box OVAL_FRAME down_box ROUND_DOWN_BOX selection_color 2 labelcolor 7 align 1
+      }
+      Fl_Round_Button {} {
+        label {READ IN}
+        xywh {500 508 20 20} box OVAL_FRAME down_box ROUND_DOWN_BOX selection_color 2 labelcolor 7 align 1
+      }
+      Fl_Round_Button {} {
+        label READER
+        xywh {719 507 20 20} box OVAL_FRAME down_box ROUND_DOWN_BOX selection_color 2 labelcolor 7 align 1
+      }
+      Fl_Round_Button {} {
+        label {TAPE FEED}
+        xywh {809 507 20 20} box OVAL_FRAME down_box ROUND_DOWN_BOX selection_color 2 labelcolor 7 align 1
+      }
+      Fl_Button {} {
+        label START
+        callback from_ui_update_parent
+        xywh {135 0 70 37} box FLAT_BOX down_box FLAT_BOX color 14 selection_color 181 labelfont 1 labelsize 10 labelcolor 7
+      }
+    }
+  }
+}
